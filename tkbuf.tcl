@@ -1,0 +1,17 @@
+#!/bin/env wish
+
+wm title . tkbuf
+
+set bg white
+set fg black
+
+scrollbar .sy -background $bg -command {.t yview}
+scrollbar .sx -orient horizontal -background $bg -command {.t xview}
+text .t\
+	-background $bg -foreground $fg\
+	-yscrollcommand {.sy set} -xscrollcommand {.sx set}\
+	-wrap none
+
+pack .sy -side left -fill both
+pack .t -fill both -expand 1
+pack .sx -side bottom -fill both
