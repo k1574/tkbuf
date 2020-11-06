@@ -1,6 +1,4 @@
+MKPATH=../mk
+<$MKPATH/inc/path
 NAME=tkbuf
-LOCAL=$HOME/local
-BIN=$LOCAL/bin
-SHR=$LOCAL/shr
-MAN=$SHR/man
 
