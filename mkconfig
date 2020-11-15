@@ -1,4 +1,3 @@
-MKPATH=../mk
-<$MKPATH/inc/path
-NAME=tkbuf
+NAME=txtbuf
+EXE=$HOME/exe
 

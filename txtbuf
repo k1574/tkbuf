@@ -1,6 +1,6 @@
 #!/bin/env wish
 
-wm title . tkbuf
+wm title . $argv0
 
 set bg white
 set fg black
@@ -15,3 +15,4 @@ text .t\
 pack .sy -side left -fill both
 pack .t -fill both -expand 1
 pack .sx -side bottom -fill both
+

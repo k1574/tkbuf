@@ -1,0 +1,5 @@
+txtbuf
+------
+
+*txtbuf* is a simple text buffer to keep text written in Tcl/Tk.
+
